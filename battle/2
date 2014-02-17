@@ -1,0 +1,18 @@
+import pygame, sys
+class Battlecruiser(pygame.sprite.Sprite):
+        def __init__(self, screen):
+                pygame.sprite.Sprite.__init__(self)
+                self.screen = screen
+                try:
+                        self.image = pygame.image.load('assets/Battlecruiser.gif').convert()
+                except:
+                        self.image = pygame.Surface((200, 200))
+                (self.image_w, self.image_h) = self.image.get_size()
+                self.rect = self.image.get_rect()
+
+
+
+if __name__ == "__main__":
+        battle = Battlecruiser(None)
+        while 1:
+                print battle.image_w
