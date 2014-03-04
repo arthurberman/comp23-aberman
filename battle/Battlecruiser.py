@@ -7,10 +7,11 @@ class Battlecruiser(pygame.sprite.Sprite):
                         self.image = pygame.image.load('assets/battlecruiser.gif').convert()
                 except:
                         self.image = pygame.Surface((200, 200))
-                self.x = 0;
-                self.y = 0;
+                self.x = 300;
+                self.y = 400;
                 self.dx = 0;
                 self.dy = 0;
+                self.canShoot = True
                 self.speed = 3
                 self.lasers = pygame.sprite.Group()
                 (self.image_w, self.image_h) = self.image.get_size()
@@ -29,8 +30,11 @@ class Battlecruiser(pygame.sprite.Sprite):
                         self.dx = self.speed
                 else:
                         self.dx = 0
-                if (keys[pygame.K_SPACE]):
+                if (keys[pygame.K_SPACE] and self.canShoot):
                         self.shoot()
+                        self.canShoot = False
+                if not keys[pygame.K_SPACE]:
+                        self.canShoot = True
         def shoot(self):
                 self.lasers.add(Laser.Laser(self.x + (self.image_w/2), self.y, self.screen))
         def update(self):
@@ -39,7 +43,7 @@ class Battlecruiser(pygame.sprite.Sprite):
                 self.rect.x = self.x
                 self.rect.y = self.y
         def draw(self):
-                screen.blit(self.image, self.rect)
+                self.screen.blit(self.image, self.rect)
 
 
 

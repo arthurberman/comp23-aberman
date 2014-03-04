@@ -19,21 +19,28 @@ class Enemy(pygame.sprite.Sprite):
                 self.rect = self.image.get_rect().move(self.x, self.y)
                 self.active= True
                 self.thePlayer = player
-        def update(self):
+        def hit(self):
+                self.image = self.explosionImage
+                self.active = False
+        def update(self, shouldBounce):
                 self.x += self.dx
                 self.y += self.dy
-                if (self.x < 0):
-                        self.dx = -self.dx
-                if (self.y < 0):
-                        self.dy = -self.dy
-                if (self.x > 800 -self.image_w):
-                        self.dx = -self.dx
-                if (self.y > 600 - self.image_h):
+                if shouldBounce:
+                    if (self.x < 0):
+                            self.dx = -self.dx
+                    if (self.y < 0):
+                            self.dy = -self.dy
+                    if (self.x > 800 -self.image_w):
+                            self.dx = -self.dx
+                    if (self.y > 600 - self.image_h):
                         self.dy = -self.dy
                 self.rect.x = self.x
                 self.rect.y = self.y
         def draw(self):
-                screen.blit(self.image, self.rect)
+                if self.image != None:
+                    self.screen.blit(self.image, self.rect)
+                if self.active == False:
+                    self.image = None
 
 if __name__ == "__main__":
         pygame.init()
@@ -50,7 +57,7 @@ if __name__ == "__main__":
                 if (keys[pygame.K_ESCAPE]):
                         sys.exit()
                 screen.fill(16777215)
-                enemies.update()
+                enemies.update(True)
                 enemies.draw(screen)
                 pygame.display.flip()
 

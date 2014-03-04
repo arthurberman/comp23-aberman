@@ -1,6 +1,7 @@
 import pygame, random
 class Laser(pygame.sprite.Sprite):
         def __init__(self, x, y, screen):
+                pygame.mixer.Sound('assets/laser.wav').play()
                 pygame.sprite.Sprite.__init__(self)
                 self.x = x
                 self.y = y
@@ -20,8 +21,11 @@ class Laser(pygame.sprite.Sprite):
                 self.y += self.dy
                 self.rect.x = self.x
                 self.rect.y = self.y
+                if self.rect.y < 0:
+                    self.active = False
         def draw(self):
-                screen.blit(self.image, self.rect)
+                if self.active:
+                    self.screen.blit(self.image, self.rect)
 if __name__ == "__main__":
         pygame.init()
         fpsClock = pygame.time.Clock()
