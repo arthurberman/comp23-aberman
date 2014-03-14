@@ -1,0 +1,1096 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Skein rootNode="node-0x08679F18" xmlns="http://www.logicalshift.org.uk/IF/Skein">
+  <generator>Inform 7 for Windows</generator>
+  <activeNode nodeId="node-0x08679F18"/>
+  <item nodeId="node-0x08679F18">
+    <command xml:space="preserve">- start -</command>
+    <result xml:space="preserve">It has been 1000 years since the Last Sundering, when the evil that sleeps on the edge of the world was banished again, as it has been for millenia. But now, the Ancient Fog has risen, and in the mist demons have awoken. As beasts of legend once again take shape and weave their devastation across the land, heroes from around the world have taken up arms in the defense of their home. And of course, somebody has to sell them their weapons...&#x000A;&#x000A;The Salesman&#x000A;An Interactive Fiction by Arthur Berman&#x000A;Release 1 / Serial number 140313 / Inform 7 build 6G60 (I6/v6.32 lib 6/12N) SD&#x000A;&#x000A;store&#x000A;You stand behind the counter of your Adventuring Supply Store. Various customers mill about as they examine your various goods. Your sword leans against the wall, but you're a merchant and don't have the strength or skill needed to fight with such a weapon. &#x000A;&#x000A;You can also see a Front Door, Matthias Greyhammer and Gerome Slowarm here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">It has been 1000 years since the Last Sundering, when the evil that sleeps on the edge of the world was banished again, as it has been for millenia. But now, the Ancient Fog has risen, and in the mist demons have awoken. As beasts of legend once again take shape and weave their devastation across the land, heroes from around the world have taken up arms in the defense of their home. And of course, somebody has to sell them their weapons...&#x000A;&#x000A;The Salesman&#x000A;An Interactive Fiction by Arthur Berman&#x000A;Release 1 / Serial number 140313 / Inform 7 build 6G60 (I6/v6.32 lib 6/12N) SD&#x000A;&#x000A;store&#x000A;You stand behind the counter of your Adventuring Supply Store. Various customers mill about as they examine your various goods. Your sword leans against the wall, but you're a merchant and don't have the strength or skill needed to fight with such a weapon. &#x000A;&#x000A;You can also see a Front Door, Matthias Greyhammer and Gerome Slowarm here.&#x000A;&#x000A;&gt;</commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">NO</temporary>
+    <children>
+      <child nodeId="node-0x0867A148"/>
+      <child nodeId="node-0x0867A1B8"/>
+      <child nodeId="node-0x0867A4C8"/>
+      <child nodeId="node-0x0867A688"/>
+      <child nodeId="node-0x08679DC8"/>
+      <child nodeId="node-0x09D2BFE8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0867A148">
+    <command xml:space="preserve">go east</command>
+    <result xml:space="preserve">Waterfall&#x000A;There is a waterfall&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0867A458"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0867A458">
+    <command xml:space="preserve">go west</command>
+    <result xml:space="preserve">Store&#x000A;You stand behind the counter and watch as various people do stuff. &#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x0867A1B8">
+    <command xml:space="preserve">open the Front Door</command>
+    <result xml:space="preserve">You open the Front Door.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x08679D58"/>
+    </children>
+  </item>
+  <item nodeId="node-0x08679D58">
+    <command xml:space="preserve">go through the front door</command>
+    <result xml:space="preserve">town square&#x000A;You can see a Front Door and Matthias Greyhammer here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x0867A4C8">
+    <command xml:space="preserve">open the door</command>
+    <result xml:space="preserve">You open the Front Door.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0867A7D8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0867A7D8">
+    <command xml:space="preserve">go through the door</command>
+    <result xml:space="preserve">town square&#x000A;You can see Matthias Greyhammer here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0867A618"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0867A618">
+    <command xml:space="preserve">talk to Matthias</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0867A3E8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0867A3E8">
+    <command xml:space="preserve">say "Hi Matthias"</command>
+    <result xml:space="preserve">(to Matthias Greyhammer)&#x000A;There is no reply.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x0867A688">
+    <command xml:space="preserve">go north</command>
+    <result xml:space="preserve">town square&#x000A;The once-bustling town square is eerily quiet. The black mist that lingers across the world is thin here, but still present. Apart from the city guards, the only other person in the square is an old woman, who you recognize as Muriel, the Witch. The city walls loom overhead to the north and east. The church is to the west, with its enormous gates open to anybody willing to donate.&#x000A;&#x000A;You can see a church door, a Front Door, a cat and Muriel here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x08679F88"/>
+      <child nodeId="node-0x0867A848"/>
+      <child nodeId="node-0x08679FF8"/>
+      <child nodeId="node-0x08E3F9E0"/>
+      <child nodeId="node-0x08E3FC80"/>
+    </children>
+  </item>
+  <item nodeId="node-0x08679F88">
+    <command xml:space="preserve">examine Matthias Greyhammer</command>
+    <result xml:space="preserve">A stout man in leather armor.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0867A298"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0867A298">
+    <command xml:space="preserve">look at Matthias Greyhammer</command>
+    <result xml:space="preserve">A stout man in leather armor.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x0867A848">
+    <command xml:space="preserve">examine muriel</command>
+    <result xml:space="preserve">A wizened old crone wearing a ragged cloak. An oily, slick lock of hair droops across her forehead, but her head is otherwise bald. A bag slung across her shoulder wriggles slightly.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x08679FF8">
+    <command xml:space="preserve">go north</command>
+    <result xml:space="preserve">North Wall&#x000A;This immense wall may be the only thing protecting the town from certain destruction. An enormous gate stands barred and locked. If any of the demons were to attack, surely this wall would stop them... You can go up the wall.&#x000A;&#x000A;You can see a main gate here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0867A308"/>
+      <child nodeId="node-0x082BED78"/>
+      <child nodeId="node-0x08E40150"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0867A308">
+    <command xml:space="preserve">go up</command>
+    <result xml:space="preserve">The Top of the Wall&#x000A;You can see an enormous bank of fog.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0867A378"/>
+      <child nodeId="node-0x0867AA78"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0867A378">
+    <command xml:space="preserve">go south</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0867A8B8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0867A8B8">
+    <command xml:space="preserve">go down</command>
+    <result xml:space="preserve">North Wall&#x000A;This immense wall may be the only thing protecting the town from certain destruction. If any of the demons were to attack, surely this wall would stop them... You can go up the wall.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0867A538"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0867A538">
+    <command xml:space="preserve">up</command>
+    <result xml:space="preserve">The Top of the Wall&#x000A;You can see an enormous bank of fog.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0867A5A8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0867A5A8">
+    <command xml:space="preserve">down</command>
+    <result xml:space="preserve">North Wall&#x000A;This immense wall may be the only thing protecting the town from certain destruction. If any of the demons were to attack, surely this wall would stop them... You can go up the wall.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x0867AA78">
+    <command xml:space="preserve">examine it</command>
+    <result xml:space="preserve">You see nothing unexpected in that direction.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0867A928"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0867A928">
+    <command xml:space="preserve">examine the enormous bank of fog</command>
+    <result xml:space="preserve">This obscuring cloud almost seems to growl menacingly. Looking at it hurts the eyes, not because it is bright but because it seems to sap light from the space in front of you. &#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0867A6F8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0867A6F8">
+    <command xml:space="preserve">quit</command>
+    <result xml:space="preserve">Are you sure you want to quit?</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0867A768"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0867A768">
+    <command xml:space="preserve">ys</command>
+    <result xml:space="preserve">Please answer yes or no.&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0867AA08"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0867AA08">
+    <command xml:space="preserve">yes</command>
+    <result xml:space="preserve"></result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x082BED78">
+    <command xml:space="preserve">go north</command>
+    <result xml:space="preserve">(first opening the main gate)&#x000A;It seems to be locked.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x082BF018"/>
+    </children>
+  </item>
+  <item nodeId="node-0x082BF018">
+    <command xml:space="preserve">go north</command>
+    <result xml:space="preserve">(first opening the main gate)&#x000A;It seems to be locked.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x082BEEC8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x082BEEC8">
+    <command xml:space="preserve">go up</command>
+    <result xml:space="preserve">The Top of the Wall&#x000A;You can see an enormous bank of fog.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x08E40150">
+    <command xml:space="preserve">go west</command>
+    <result xml:space="preserve">town hall&#x000A;Once the center of government in the city, the town hall is now deserted.&#x000A;&#x000A;You can see a gate key here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x08E3FF20"/>
+    </children>
+  </item>
+  <item nodeId="node-0x08E3FF20">
+    <command xml:space="preserve">take the gate key</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x08E40000"/>
+    </children>
+  </item>
+  <item nodeId="node-0x08E40000">
+    <command xml:space="preserve">go east</command>
+    <result xml:space="preserve">North Wall&#x000A;This immense wall may be the only thing protecting the town from certain destruction. An enormous gate stands barred and locked. If any of the demons were to attack, surely this wall would stop them... You can go up the wall.&#x000A;&#x000A;You can see a main gate here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x08E404D0"/>
+      <child nodeId="node-0x08E40070"/>
+    </children>
+  </item>
+  <item nodeId="node-0x08E404D0">
+    <command xml:space="preserve">go north</command>
+    <result xml:space="preserve">(first opening the main gate)&#x000A;It seems to be locked.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x08E3FB30"/>
+    </children>
+  </item>
+  <item nodeId="node-0x08E3FB30">
+    <command xml:space="preserve">open the main gate</command>
+    <result xml:space="preserve">It seems to be locked.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x08E3FC10"/>
+    </children>
+  </item>
+  <item nodeId="node-0x08E3FC10">
+    <command xml:space="preserve">use the gate key on the main gate</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x08E40620"/>
+    </children>
+  </item>
+  <item nodeId="node-0x08E40620">
+    <command xml:space="preserve">open the main gate with the gate key</command>
+    <result xml:space="preserve">You unlock the main gate.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x08E3FE40"/>
+    </children>
+  </item>
+  <item nodeId="node-0x08E3FE40">
+    <command xml:space="preserve">go north</command>
+    <result xml:space="preserve">(first opening the main gate)&#x000A;You can't, since the main gate leads nowhere.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x08E40070">
+    <command xml:space="preserve">open the main gate with the gate key</command>
+    <result xml:space="preserve">You unlock the main gate.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x08E401C0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x08E401C0">
+    <command xml:space="preserve">go north</command>
+    <result xml:space="preserve">(first opening the main gate)&#x000A;By opening the gate, you have allowed the monsters entrance to the city. Demons and monsters wreak havoc and destroy everything in their reach, starting with you.&#x000A;&#x000A;&#x000A;&#x000A;    *** The End ***&#x000A;&#x000A;&#x000A;In that game you scored 0 out of a possible 0, in 7 turns.&#x000A;&#x000A;&#x000A;Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x08E40230"/>
+    </children>
+  </item>
+  <item nodeId="node-0x08E40230">
+    <command xml:space="preserve">restart</command>
+    <result xml:space="preserve">It has been 1000 years since the Last Sundering, when the evil that sleeps on the edge of the world was banished again, as it has been for millenia. But now, the Ancient Fog has risen, and in the mist demons have awoken. As beasts of legend once again take shape and weave their devastation across the land, heroes from around the world have taken up arms in the defense of their home. And of course, somebody has to sell them their weapons...&#x000A;&#x000A;The Salesman&#x000A;An Interactive Fiction by Arthur Berman&#x000A;Release 1 / Serial number 140313 / Inform 7 build 6G60 (I6/v6.32 lib 6/12N) SD&#x000A;&#x000A;store&#x000A;You stand behind the counter of your Adventuring Supply Store. Various customers mill about as they examine your various goods. You have a sword, but you're a merchant and don't have the strength or skill needed to fight with such a weapon.&#x000A;&#x000A;You can also see a Front Door, Matthias Greyhammer and Gerome Slowarm here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x08E40310"/>
+    </children>
+  </item>
+  <item nodeId="node-0x08E40310">
+    <command xml:space="preserve">go north</command>
+    <result xml:space="preserve">town square&#x000A;The once-bustling town square is eerily quiet. The black mist that lingers across the world is thin here, but still present. Apart from the city guards, the only other person in the square is an old woman, who you recognize as Muriel, the Witch. The city walls loom overhead to the north and east. The church is to the west, with its enormous gates open to anybody willing to donate.&#x000A;&#x000A;You can see a church door, a Front Door, a cat and Muriel here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x08E40690"/>
+    </children>
+  </item>
+  <item nodeId="node-0x08E40690">
+    <command xml:space="preserve">take the cat</command>
+    <result xml:space="preserve">The cat scurries away.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x08E40700"/>
+    </children>
+  </item>
+  <item nodeId="node-0x08E40700">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">town square&#x000A;The once-bustling town square is eerily quiet. The black mist that lingers across the world is thin here, but still present. Apart from the city guards, the only other person in the square is an old woman, who you recognize as Muriel, the Witch. The city walls loom overhead to the north and east. The church is to the west, with its enormous gates open to anybody willing to donate.&#x000A;&#x000A;You can see a church door, a Front Door and Muriel here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x08E3FAC0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x08E3FAC0">
+    <command xml:space="preserve">go to the store</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x08E408C0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x08E408C0">
+    <command xml:space="preserve">go south</command>
+    <result xml:space="preserve">store&#x000A;You stand behind the counter of your Adventuring Supply Store. Various customers mill about as they examine your various goods. You have a sword, but you're a merchant and don't have the strength or skill needed to fight with such a weapon.&#x000A;&#x000A;You can also see a Front Door, Matthias Greyhammer and Gerome Slowarm here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x08E407E0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x08E407E0">
+    <command xml:space="preserve">take the sword</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x08E40850"/>
+    </children>
+  </item>
+  <item nodeId="node-0x08E40850">
+    <command xml:space="preserve">sell the sword to matthias</command>
+    <result xml:space="preserve">&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x09329390"/>
+    </children>
+  </item>
+  <item nodeId="node-0x09329390">
+    <command xml:space="preserve">restart</command>
+    <result xml:space="preserve">Are you sure you want to restart?</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x08E3FBA0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x08E3FBA0">
+    <command xml:space="preserve">yes</command>
+    <result xml:space="preserve">It has been 1000 years since the Last Sundering, when the evil that sleeps on the edge of the world was banished again, as it has been for millenia. But now, the Ancient Fog has risen, and in the mist demons have awoken. As beasts of legend once again take shape and weave their devastation across the land, heroes from around the world have taken up arms in the defense of their home. And of course, somebody has to sell them their weapons...&#x000A;&#x000A;The Salesman&#x000A;An Interactive Fiction by Arthur Berman&#x000A;Release 1 / Serial number 140313 / Inform 7 build 6G60 (I6/v6.32 lib 6/12N) SD&#x000A;&#x000A;store&#x000A;You stand behind the counter of your Adventuring Supply Store. Various customers mill about as they examine your various goods. You have a sword, but you're a merchant and don't have the strength or skill needed to fight with such a weapon.&#x000A;&#x000A;You can also see a Front Door, Matthias Greyhammer and Gerome Slowarm here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x08CE58B0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x08CE58B0">
+    <command xml:space="preserve">take the swor</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x08CE6100"/>
+    </children>
+  </item>
+  <item nodeId="node-0x08CE6100">
+    <command xml:space="preserve">take the sword</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x08CE5ED0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x08CE5ED0">
+    <command xml:space="preserve">sell the sword to Gerome</command>
+    <result xml:space="preserve">&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x08CE5D80"/>
+    </children>
+  </item>
+  <item nodeId="node-0x08CE5D80">
+    <command xml:space="preserve">restart</command>
+    <result xml:space="preserve">Are you sure you want to restart?</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x08CE5AE0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x08CE5AE0">
+    <command xml:space="preserve">yes</command>
+    <result xml:space="preserve">It has been 1000 years since the Last Sundering, when the evil that sleeps on the edge of the world was banished again, as it has been for millenia. But now, the Ancient Fog has risen, and in the mist demons have awoken. As beasts of legend once again take shape and weave their devastation across the land, heroes from around the world have taken up arms in the defense of their home. And of course, somebody has to sell them their weapons...&#x000A;&#x000A;The Salesman&#x000A;An Interactive Fiction by Arthur Berman&#x000A;Release 1 / Serial number 140313 / Inform 7 build 6G60 (I6/v6.32 lib 6/12N) SD&#x000A;&#x000A;store&#x000A;You stand behind the counter of your Adventuring Supply Store. Various customers mill about as they examine your various goods. You have a sword, but you're a merchant and don't have the strength or skill needed to fight with such a weapon.&#x000A;&#x000A;You can also see a Front Door, Matthias Greyhammer and Gerome Slowarm here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x08CE5920"/>
+    </children>
+  </item>
+  <item nodeId="node-0x08CE5920">
+    <command xml:space="preserve">take the sword</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x08CE6090"/>
+    </children>
+  </item>
+  <item nodeId="node-0x08CE6090">
+    <command xml:space="preserve">drop the sword</command>
+    <result xml:space="preserve">Dropped.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x08CE5FB0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x08CE5FB0">
+    <command xml:space="preserve">sell the sword to Matthias</command>
+    <result xml:space="preserve">&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x08CE6020"/>
+    </children>
+  </item>
+  <item nodeId="node-0x08CE6020">
+    <command xml:space="preserve">sell the sword to gerome</command>
+    <result xml:space="preserve">&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x08CE5C30"/>
+    </children>
+  </item>
+  <item nodeId="node-0x08CE5C30">
+    <command xml:space="preserve">sell the sword to matthias</command>
+    <result xml:space="preserve">&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x08CE5990"/>
+    </children>
+  </item>
+  <item nodeId="node-0x08CE5990">
+    <command xml:space="preserve">take the sword</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x08CE5840"/>
+    </children>
+  </item>
+  <item nodeId="node-0x08CE5840">
+    <command xml:space="preserve">sell the sword to matthias</command>
+    <result xml:space="preserve">&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x08E3F9E0">
+    <command xml:space="preserve">go west</command>
+    <result xml:space="preserve">church&#x000A;The church has never been this empty. A chorus of prayers drifts ethereally through the building, but nobody is here save for the priest.&#x000A;&#x000A;You can see a church door here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x08E400E0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x08E400E0">
+    <command xml:space="preserve">talk to the priest</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x08E40460"/>
+    </children>
+  </item>
+  <item nodeId="node-0x08E40460">
+    <command xml:space="preserve">quit</command>
+    <result xml:space="preserve">Are you sure you want to quit?</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x08E405B0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x08E405B0">
+    <command xml:space="preserve">yes</command>
+    <result xml:space="preserve"></result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x08E3FC80">
+    <command xml:space="preserve">examine the cat</command>
+    <result xml:space="preserve">You see nothing special about the cat.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x08E3FCF0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x08E3FCF0">
+    <command xml:space="preserve">talk to muriel</command>
+    <result xml:space="preserve">Muriel says, "Bug off, you twit. I don't want any of what you're selling. Won't do no good neither. Keh-heh-heh-heh."&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x08E40770"/>
+    </children>
+  </item>
+  <item nodeId="node-0x08E40770">
+    <command xml:space="preserve">interact iwth muriel</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x08E3FD60"/>
+    </children>
+  </item>
+  <item nodeId="node-0x08E3FD60">
+    <command xml:space="preserve">interact with muriel</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x08679DC8">
+    <command xml:space="preserve">take sword</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x08679E38"/>
+      <child nodeId="node-0x08CE5CA0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x08679E38">
+    <command xml:space="preserve">inventor</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0867AC38"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0867AC38">
+    <command xml:space="preserve">inventory</command>
+    <result xml:space="preserve">You are carrying:&#x000A;  a sword&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x08CE5CA0">
+    <command xml:space="preserve">sell the sword to gerome slowarm</command>
+    <result xml:space="preserve">Gerome thanks you for the fine sword, and gladly parts with 150 points.&#x000A;&#x000A;[Your score has just gone up by one hundred and fifty points.]&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x08CE5D10"/>
+    </children>
+  </item>
+  <item nodeId="node-0x08CE5D10">
+    <command xml:space="preserve">wait</command>
+    <result xml:space="preserve">Time passes.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x08CE5E60"/>
+    </children>
+  </item>
+  <item nodeId="node-0x08CE5E60">
+    <command xml:space="preserve">wait</command>
+    <result xml:space="preserve">Time passes.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x08CE5A00"/>
+    </children>
+  </item>
+  <item nodeId="node-0x08CE5A00">
+    <command xml:space="preserve">wait</command>
+    <result xml:space="preserve">Time passes.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x08CE5F40"/>
+    </children>
+  </item>
+  <item nodeId="node-0x08CE5F40">
+    <command xml:space="preserve">wait</command>
+    <result xml:space="preserve">Time passes.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x08CE5530"/>
+    </children>
+  </item>
+  <item nodeId="node-0x08CE5530">
+    <command xml:space="preserve">ait</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x08CE5B50"/>
+    </children>
+  </item>
+  <item nodeId="node-0x08CE5B50">
+    <command xml:space="preserve">ait</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x08CE55A0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x08CE55A0">
+    <command xml:space="preserve">wait</command>
+    <result xml:space="preserve">Time passes.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x08CE57D0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x08CE57D0">
+    <command xml:space="preserve">wait</command>
+    <result xml:space="preserve">Time passes.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x08CE5DF0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x08CE5DF0">
+    <command xml:space="preserve">wait</command>
+    <result xml:space="preserve">Time passes.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x08CE5610"/>
+    </children>
+  </item>
+  <item nodeId="node-0x08CE5610">
+    <command xml:space="preserve">wait</command>
+    <result xml:space="preserve">Time passes.&#x000A;&#x000A;A horrifying roar fills the air.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x08CE5680"/>
+    </children>
+  </item>
+  <item nodeId="node-0x08CE5680">
+    <command xml:space="preserve">wait</command>
+    <result xml:space="preserve">Time passes.&#x000A;&#x000A;Screams and cries ring out.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x08CE5760"/>
+    </children>
+  </item>
+  <item nodeId="node-0x08CE5760">
+    <command xml:space="preserve">wait</command>
+    <result xml:space="preserve">Time passes.&#x000A;&#x000A;A monstrous shadow covers the store.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x08CE5BC0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x08CE5BC0">
+    <command xml:space="preserve">wait</command>
+    <result xml:space="preserve">Time passes.&#x000A;&#x000A;A beast with one-thousand eyes peers down from the sky above. Clearly the enormous walls were inadequate to keep this monster out.&#x000A;&#x000A;Gerome Slowarm takes his new sword and charges the horrifying beast, and is summarily squelched by three tons of demon-claw.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x08CE63A0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x08CE63A0">
+    <command xml:space="preserve">wait</command>
+    <result xml:space="preserve">Time passes.&#x000A;&#x000A;The Beast inhales, and a horrible miasma oozes from his throat. He is about to drown the city in death. &#x000A;&#x000A;Alas, the horrifying demonic beast has overwhelmed the city, and in so doing has ended your life. If only you had been a better businessman and sold some goods to somebody who could defend the city.&#x000A;&#x000A;&#x000A;&#x000A;    *** The End ***&#x000A;&#x000A;&#x000A;In that game you scored 150 out of a possible 0, in 15 turns.&#x000A;&#x000A;&#x000A;Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x08CE6410"/>
+    </children>
+  </item>
+  <item nodeId="node-0x08CE6410">
+    <command xml:space="preserve">restart</command>
+    <result xml:space="preserve">It has been 1000 years since the Last Sundering, when the evil that sleeps on the edge of the world was banished again, as it has been for millenia. But now, the Ancient Fog has risen, and in the mist demons have awoken. As beasts of legend once again take shape and weave their devastation across the land, heroes from around the world have taken up arms in the defense of their home. And of course, somebody has to sell them their weapons...&#x000A;&#x000A;The Salesman&#x000A;An Interactive Fiction by Arthur Berman&#x000A;Release 1 / Serial number 140313 / Inform 7 build 6G60 (I6/v6.32 lib 6/12N) SD&#x000A;&#x000A;store&#x000A;You stand behind the counter of your Adventuring Supply Store. Various customers mill about as they examine your various goods. You have a sword, but you're a merchant and don't have the strength or skill needed to fight with such a weapon. &#x000A;&#x000A;You can also see a Front Door, Matthias Greyhammer and Gerome Slowarm here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x08CE6330"/>
+    </children>
+  </item>
+  <item nodeId="node-0x08CE6330">
+    <command xml:space="preserve">take sword</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x08CE62C0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x08CE62C0">
+    <command xml:space="preserve">sell sword to Matthias</command>
+    <result xml:space="preserve">I didn't understand that sentence.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x093287C0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x093287C0">
+    <command xml:space="preserve">sell the sword to matthias</command>
+    <result xml:space="preserve">Matthias thanks you for the fine sword, at such a reasonable price. He gives you 100 points in exchange.&#x000A;&#x000A;[Your score has just gone up by one hundred points.]&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x093289F0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x093289F0">
+    <command xml:space="preserve">wait</command>
+    <result xml:space="preserve">Time passes.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x09328A60"/>
+    </children>
+  </item>
+  <item nodeId="node-0x09328A60">
+    <command xml:space="preserve">wait</command>
+    <result xml:space="preserve">Time passes.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0867A998"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0867A998">
+    <command xml:space="preserve">wait</command>
+    <result xml:space="preserve">Time passes.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x08679EA8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x08679EA8">
+    <command xml:space="preserve">wait</command>
+    <result xml:space="preserve">Time passes.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0867A228"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0867A228">
+    <command xml:space="preserve">wait</command>
+    <result xml:space="preserve">Time passes.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x08996A90"/>
+    </children>
+  </item>
+  <item nodeId="node-0x08996A90">
+    <command xml:space="preserve">wait</command>
+    <result xml:space="preserve">Time passes.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x08996EF0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x08996EF0">
+    <command xml:space="preserve">wait</command>
+    <result xml:space="preserve">Time passes.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x089970B0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x089970B0">
+    <command xml:space="preserve">wait</command>
+    <result xml:space="preserve">Time passes.&#x000A;&#x000A;A horrifying roar fills the air.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x08996710"/>
+    </children>
+  </item>
+  <item nodeId="node-0x08996710">
+    <command xml:space="preserve">wait</command>
+    <result xml:space="preserve">Time passes.&#x000A;&#x000A;Screams and cries ring out.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x08997350"/>
+    </children>
+  </item>
+  <item nodeId="node-0x08997350">
+    <command xml:space="preserve">wait</command>
+    <result xml:space="preserve">Time passes.&#x000A;&#x000A;A monstrous shadow covers the store.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x08996C50"/>
+    </children>
+  </item>
+  <item nodeId="node-0x08996C50">
+    <command xml:space="preserve">wait</command>
+    <result xml:space="preserve">Time passes.&#x000A;&#x000A;A beast with one-thousand eyes peers down from the sky above. Clearly the enormous walls were inadequate to keep this monster out.&#x000A;&#x000A;Matthias Greyhammer takes his newly acquired sword and slays the horrifying beast that threatens the town. You are safe and able to sell your wares for another day, but how much longer will this uneasy safety last?&#x000A;&#x000A;&#x000A;&#x000A;    *** You have won ***&#x000A;&#x000A;&#x000A;In that game you scored 100 out of a possible 0, in 13 turns.&#x000A;&#x000A;&#x000A;Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x089965C0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x089965C0">
+    <command xml:space="preserve">wait</command>
+    <result xml:space="preserve">Please give one of the answers above.&#x000A;&#x000A;Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x09D2BFE8">
+    <command xml:space="preserve">exit</command>
+    <result xml:space="preserve">But you aren't in anything at the moment.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">But you aren't in anything at the moment.&#x000A;&#x000A;&gt;</commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">NO</temporary>
+  </item>
+</Skein>
